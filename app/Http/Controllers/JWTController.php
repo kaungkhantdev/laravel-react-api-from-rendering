@@ -56,7 +56,7 @@ class JwtController extends Controller
 
         if ($claims) {
             // Token is valid, return the protected resource
-            return response()->json(['message' => 'You are authorized', 'data' => $request->body()]);
+            return response()->json(['message' => 'You are authorized', 'data' => $request->input('data')]);
         }
 
         // Token is invalid, return an error response

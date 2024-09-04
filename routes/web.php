@@ -1,7 +1,6 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\JWTController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,5 +17,3 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/login', [JwtController::class, 'loginWithAccessKey']);
-Route::get('/protected', [JwtController::class, 'getProtectedResource']);
