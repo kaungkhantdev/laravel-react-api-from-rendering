@@ -1,0 +1,45 @@
+.react-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px, solid #2c5a93;
+  border-radius: 10px;
+  background: #414b5a45;
+  padding: 20px;
+}
+.react-box-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.btn-class {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #fffefe;
+  cursor: pointer;
+  transition: border-color 0.25s;
+  color: '#fff';
+}
+.btn-class:hover {
+  border-color: #646cff;
+}
+.btn-class:focus,
+.btn-class:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  a:hover {
+    color: #747bff;
+  }
+  .btn-class {
+    background-color: #f9f9f9;
+  }
+}

@@ -3,6 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
 
         <title>Laravel</title>
 
@@ -11,7 +12,7 @@
         <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
         
         <!-- react  -->
-        <script type="module" crossorigin src="{{asset('assets/index-T6UW4QjS.js')}}"></script>
+        <script type="module" crossorigin src="{{asset('assets/index-BdRpdJNM.js')}}"></script>
         <link rel="stylesheet" crossorigin href="{{asset('assets/index-Cr5ExXtu.css')}}">
 
         <!-- Styles -->
